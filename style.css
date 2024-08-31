@@ -1,0 +1,55 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+}
+
+.box{
+    width: 30px;
+    height: 30px;
+    color: crimson;
+    color: white;
+    position: absolute;
+    animation-name: car;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    top: 100px;
+    left: 230px;
+}
+
+
+@keyframes car {
+    0% {
+        top: 100px;
+        left: 230px;
+    }
+
+    25%{
+        top: 500px;
+        left: 230px;
+    }
+
+    50%{
+        left: 1200px;
+        top: 500px;
+    }
+
+    75%{
+        left: 1200px;
+        top: 100px;
+    }
+
+    100%{
+        left: 230px;
+        top: 100px;
+    }
+
+    
+}
